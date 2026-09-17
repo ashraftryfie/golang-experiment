@@ -32,12 +32,13 @@ stages:
 
   - id: "02-data-structures"
     title: "Data Structures (Arrays, Slices, Maps)"
-    status: "NOT_STARTED"
+    status: "IN_PROGRESS"
     exercises_completed: 0
     exercises_total: 3
     challenge_completed: false
     tests_passing: false
     reviewed_at: null
+    notes: "Starter exercises, examples, challenge, and solutions created. Ready for learner implementation."
 
   - id: "03-functions-methods"
     title: "Functions & Methods"
