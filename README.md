@@ -38,7 +38,7 @@ Active Stage: 01 - Go Fundamentals
 | **01** | [Go Fundamentals](./01-fundamentals/README.md) | `IN_PROGRESS` | 0/3 | Pending | Types, zero values, control flow, functions, testing |
 | **02** | [Data Structures](./02-data-structures/README.md) | `IN_PROGRESS` | 0/3 | Pending | Arrays, slices, slice headers, maps, capacity |
 | **03** | [Functions & Methods](./03-functions-methods/README.md) | `IN_PROGRESS` | 0/3 | Pending | First-class funcs, closures, defer, value vs pointer receivers |
-| **04** | [Structs & Interfaces](./04-structs-interfaces/README.md) | `NOT_STARTED` | 0/3 | Pending | Composition, embedding, implicit interfaces, polymorphism |
+| **04** | [Structs & Interfaces](./04-structs-interfaces/README.md) | `IN_PROGRESS` | 0/3 | Pending | Composition, embedding, implicit interfaces, polymorphism |
 | **05** | [Error Handling](./05-error-handling/README.md) | `NOT_STARTED` | 0/3 | Pending | Errors as values, wrapping `%w`, `errors.Is`, `errors.As` |
 | **06** | [Packages & Modules](./06-packages-modules/README.md) | `NOT_STARTED` | 0/3 | Pending | Module cache, `internal/`, package boundaries, visibility |
 | **07** | [Standard Library Deep Dive](./07-standard-library/README.md) | `NOT_STARTED` | 0/3 | Pending | `io.Reader/Writer`, `bufio`, `time`, `bytes`, `strings` |
