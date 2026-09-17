@@ -1,0 +1,231 @@
+# GoLang-Experiment Progress Tracker
+# Authoritative record of learner progression.
+# Status options: NOT_STARTED | IN_PROGRESS | PRACTICED | MASTERED | NEEDS_REVIEW
+
+metadata:
+  repository: "github.com/ashraftryfie/golang-experiment"
+  learner: "Ashraf"
+  started_date: "2026-09-18"
+  last_audited: "2026-09-18"
+  overall_progress_percentage: 5
+
+stages:
+  - id: "00-orientation"
+    title: "Orientation & Environment"
+    status: "MASTERED"
+    exercises_completed: 1
+    exercises_total: 1
+    challenge_completed: true
+    tests_passing: true
+    reviewed_at: "2026-09-18"
+    notes: "Environment verified with Go 1.22+. Project layout, formatting, and test commands understood."
+
+  - id: "01-fundamentals"
+    title: "Go Fundamentals"
+    status: "IN_PROGRESS"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+    notes: "Starter exercises created. Ready for learner implementation."
+
+  - id: "02-data-structures"
+    title: "Data Structures (Arrays, Slices, Maps)"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "03-functions-methods"
+    title: "Functions & Methods"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "04-structs-interfaces"
+    title: "Structs & Interfaces"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "05-error-handling"
+    title: "Error Handling"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "06-packages-modules"
+    title: "Packages & Modules"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "07-standard-library"
+    title: "Standard Library Deep Dive"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "08-files-json"
+    title: "Files, JSON & Serialization"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "09-http"
+    title: "HTTP Fundamentals"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "10-rest-api"
+    title: "REST API Engineering"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "11-postgresql"
+    title: "PostgreSQL & Persistence"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "12-testing"
+    title: "Testing, Fuzzing & Benchmarking"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "13-concurrency"
+    title: "Concurrency & Channels"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 4
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "14-context"
+    title: "Context & Cancellation"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "15-networking"
+    title: "Networking & Sockets"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "16-auth"
+    title: "Authentication & Security"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "17-backend-patterns"
+    title: "Production Backend Patterns"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "18-docker"
+    title: "Docker & Containerization"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "19-observability"
+    title: "Observability & Telemetry"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 3
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "20-microservice"
+    title: "Microservice Architecture"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 2
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+  - id: "21-capstone"
+    title: "Final Capstone Integration Service"
+    status: "NOT_STARTED"
+    exercises_completed: 0
+    exercises_total: 1
+    challenge_completed: false
+    tests_passing: false
+    reviewed_at: null
+
+projects:
+  - id: "01-cli-tool"
+    title: "CLI Notes Manager (go-notes)"
+    status: "NOT_STARTED"
+  - id: "02-file-processor"
+    title: "Concurrent File Worker (file-worker)"
+    status: "NOT_STARTED"
+  - id: "03-rest-api"
+    title: "Task Service REST API (task-service)"
+    status: "NOT_STARTED"
+  - id: "04-concurrent-worker"
+    title: "Event Dispatcher Worker (event-dispatcher)"
+    status: "NOT_STARTED"
+  - id: "05-microservice"
+    title: "Order Processing Microservice (order-processor)"
+    status: "NOT_STARTED"
+  - id: "capstone"
+    title: "Production Integration Service"
+    status: "NOT_STARTED"
