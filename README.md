@@ -46,7 +46,7 @@ Active Stage: 01 - Go Fundamentals
 | **09** | [HTTP Fundamentals](./09-http/README.md) | `IN_PROGRESS` | 0/3 | Pending | `http.Handler`, `ServeMux` (Go 1.22+ routing), middlewares |
 | **10** | [REST API Engineering](./10-rest-api/README.md) | `IN_PROGRESS` | 0/3 | Pending | REST principles, request validation, error responses |
 | **11** | [PostgreSQL & Storage](./11-postgresql/README.md) | `IN_PROGRESS` | 0/3 | Pending | `database/sql`, connection pooling, migrations, transactions |
-| **12** | [Testing & Benchmarking](./12-testing/README.md) | `NOT_STARTED` | 0/3 | Pending | Table tests, httptest, race detector, benchmarks, fuzzing |
+| **12** | [Testing & Benchmarking](./12-testing/README.md) | `IN_PROGRESS` | 0/3 | Pending | Table tests, httptest, race detector, benchmarks, fuzzing |
 | **13** | [Concurrency & Channels](./13-concurrency/README.md) | `NOT_STARTED` | 0/3 | Pending | Goroutines, CSP channels, select, worker pools, sync.Mutex |
 | **14** | [Context & Cancellation](./14-context/README.md) | `NOT_STARTED` | 0/3 | Pending | Cancellation trees, timeouts, dead-lines, request tracing |
 | **15** | [Networking & Sockets](./15-networking/README.md) | `NOT_STARTED` | 0/3 | Pending | TCP listeners, UDP, graceful socket shutdown, keep-alives |
