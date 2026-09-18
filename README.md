@@ -51,7 +51,7 @@ Active Stage: 01 - Go Fundamentals
 | **14** | [Context & Cancellation](./14-context/README.md) | `IN_PROGRESS` | 0/3 | Pending | Cancellation trees, timeouts, deadlines, request tracing |
 | **15** | [Networking & Sockets](./15-networking/README.md) | `IN_PROGRESS` | 0/3 | Pending | TCP listeners, UDP, graceful socket shutdown, keep-alives |
 | **16** | [Authentication & Security](./16-auth/README.md) | `IN_PROGRESS` | 0/3 | Pending | Password hashing (bcrypt), JWT, RBAC middleware, secrets |
-| **17** | [Production Backend Patterns](./17-backend-patterns/README.md) | `NOT_STARTED` | 0/3 | Pending | Graceful shutdown, circuit breakers, rate limiting, retries |
+| **17** | [Production Backend Patterns](./17-backend-patterns/README.md) | `IN_PROGRESS` | 0/3 | Pending | Graceful shutdown, circuit breakers, rate limiting, retries |
 | **18** | [Docker & Containers](./18-docker/README.md) | `NOT_STARTED` | 0/3 | Pending | Multi-stage builds, non-root distroless, docker-compose |
 | **19** | [Observability & Telemetry](./19-observability/README.md) | `NOT_STARTED` | 0/3 | Pending | Structured logging (`slog`), Prometheus metrics, tracing |
 | **20** | [Microservice Architecture](./20-microservice/README.md) | `NOT_STARTED` | 0/3 | Pending | Domain-driven design, ports & adapters, clean internal layout |
