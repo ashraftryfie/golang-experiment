@@ -49,7 +49,7 @@ Active Stage: 01 - Go Fundamentals
 | **12** | [Testing & Benchmarking](./12-testing/README.md) | `IN_PROGRESS` | 0/3 | Pending | Table tests, httptest, race detector, benchmarks, fuzzing |
 | **13** | [Concurrency & Channels](./13-concurrency/README.md) | `IN_PROGRESS` | 0/3 | Pending | Goroutines, CSP channels, select, worker pools, sync.Mutex |
 | **14** | [Context & Cancellation](./14-context/README.md) | `IN_PROGRESS` | 0/3 | Pending | Cancellation trees, timeouts, deadlines, request tracing |
-| **15** | [Networking & Sockets](./15-networking/README.md) | `NOT_STARTED` | 0/3 | Pending | TCP listeners, UDP, graceful socket shutdown, keep-alives |
+| **15** | [Networking & Sockets](./15-networking/README.md) | `IN_PROGRESS` | 0/3 | Pending | TCP listeners, UDP, graceful socket shutdown, keep-alives |
 | **16** | [Authentication & Security](./16-auth/README.md) | `NOT_STARTED` | 0/3 | Pending | Password hashing (bcrypt), JWT, RBAC middleware, secrets |
 | **17** | [Production Backend Patterns](./17-backend-patterns/README.md) | `NOT_STARTED` | 0/3 | Pending | Graceful shutdown, circuit breakers, rate limiting, retries |
 | **18** | [Docker & Containers](./18-docker/README.md) | `NOT_STARTED` | 0/3 | Pending | Multi-stage builds, non-root distroless, docker-compose |
