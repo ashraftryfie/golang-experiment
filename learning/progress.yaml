@@ -152,12 +152,13 @@ stages:
 
   - id: "14-context"
     title: "Context & Cancellation"
-    status: "NOT_STARTED"
+    status: "IN_PROGRESS"
     exercises_completed: 0
     exercises_total: 3
     challenge_completed: false
     tests_passing: false
     reviewed_at: null
+    notes: "Starter exercises, examples, challenge, and solutions created. Ready for learner implementation."
 
   - id: "15-networking"
     title: "Networking & Sockets"
