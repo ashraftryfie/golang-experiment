@@ -123,6 +123,7 @@ go version
 
 # Run all tests with race detector
 go test -v -race ./...
+```
 
 # Verify code formatting
 go fmt ./...
