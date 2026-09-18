@@ -42,7 +42,7 @@ Active Stage: 01 - Go Fundamentals
 | **05** | [Error Handling](./05-error-handling/README.md) | `IN_PROGRESS` | 0/3 | Pending | Errors as values, wrapping `%w`, `errors.Is`, `errors.As` |
 | **06** | [Packages & Modules](./06-packages-modules/README.md) | `IN_PROGRESS` | 0/3 | Pending | Module cache, `internal/`, package boundaries, visibility |
 | **07** | [Standard Library Deep Dive](./07-standard-library/README.md) | `IN_PROGRESS` | 0/3 | Pending | `io.Reader/Writer`, `bufio`, `time`, `bytes`, `strings` |
-| **08** | [Files, JSON & Serialization](./08-files-json/README.md) | `NOT_STARTED` | 0/3 | Pending | Struct tags, streaming encoders, custom Marshaler, file I/O |
+| **08** | [Files, JSON & Serialization](./08-files-json/README.md) | `IN_PROGRESS` | 0/3 | Pending | Struct tags, streaming encoders, custom Marshaler, file I/O |
 | **09** | [HTTP Fundamentals](./09-http/README.md) | `NOT_STARTED` | 0/3 | Pending | `http.Handler`, `ServeMux` (Go 1.22+ routing), middlewares |
 | **10** | [REST API Engineering](./10-rest-api/README.md) | `NOT_STARTED` | 0/3 | Pending | REST principles, request validation, error responses |
 | **11** | [PostgreSQL & Storage](./11-postgresql/README.md) | `NOT_STARTED` | 0/3 | Pending | `database/sql`, connection pooling, migrations, transactions |
