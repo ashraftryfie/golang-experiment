@@ -222,12 +222,13 @@ stages:
 
   - id: "21-capstone"
     title: "Final Capstone Integration Service"
-    status: "NOT_STARTED"
+    status: "IN_PROGRESS"
     exercises_completed: 0
     exercises_total: 1
     challenge_completed: false
     tests_passing: false
     reviewed_at: null
+    notes: "Capstone architecture, hexagonal domain, worker pool, memory adapters, and integration tests created."
 
 projects:
   - id: "01-cli-tool"
