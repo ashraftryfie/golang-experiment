@@ -2,8 +2,9 @@
 
 > An authentic, test-driven engineering journey from absolute Go fundamentals to a production-grade microservice backend.
 
-[![CI](https://github.com/ashraftryfie/golang-experiment/actions/workflows/ci.yml/badge.svg)](https://github.com/ashraftryfie/golang-experiment/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ashraftryfie/golang-experiment)](https://goreportcard.com/report/github.com/ashraftryfie/golang-experiment)
+[![CI](https://github.com/ashraftryfie/golang-experiment/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ashraftryfie/golang-experiment/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ashraftryfie/golang-experiment.svg)](https://pkg.go.dev/github.com/ashraftryfie/golang-experiment)
+[![Code Quality](https://img.shields.io/badge/Code%20Quality-A%2B%20(go%20vet%20%26%20fmt)-brightgreen?logo=go)](https://github.com/ashraftryfie/golang-experiment/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go)](https://golang.org)
 
