@@ -17,27 +17,35 @@ func ReadLinesWithIdleTimeout(conn net.Conn, idleTimeout time.Duration, onLine f
 	linesRead := 0
 
 	for {
-		// Set sliding deadline before each line read
-		if err := conn.SetReadDeadline(time.Now().Add(idleTimeout)); err != nil {
-			return linesRead, false, err
+		// Set sliding deadline before reading from network if buffer is empty
+		if reader.Buffered() == 0 {
+			if err := conn.SetReadDeadline(time.Now().Add(idleTimeout)); err != nil {
+				if errors.Is(err, io.ErrClosedPipe) || errors.Is(err, io.EOF) {
+					return linesRead, false, nil
+				}
+				return linesRead, false, err
+			}
 		}
 
 		line, err := reader.ReadString('\n')
 		if err != nil {
-			// Check if this was caused by a timeout
 			var netErr net.Error
-			if (errors.As(err, &netErr) && netErr.Timeout()) || errors.Is(err, os.ErrDeadlineExceeded) {
+			if (errors.As(err, &netErr) && netErr.Timeout()) ||
+				errors.Is(err, os.ErrDeadlineExceeded) {
 				return linesRead, true, nil
 			}
 
-			// If EOF occurred with some trailing content
-			if errors.Is(err, io.EOF) {
-				cleanLine := strings.TrimRight(line, "\r\n")
-				if len(cleanLine) > 0 {
-					if cbErr := onLine(cleanLine); cbErr != nil {
-						return linesRead, false, cbErr
+			// net.Pipe may return buffered data with io.ErrClosedPipe when
+			// the peer closes immediately after writing.
+			if errors.Is(err, io.EOF) || errors.Is(err, io.ErrClosedPipe) {
+				if len(line) > 0 {
+					cleanLine := strings.TrimRight(line, "\r\n")
+					if cleanLine != "" {
+						if cbErr := onLine(cleanLine); cbErr != nil {
+							return linesRead, false, cbErr
+						}
+						linesRead++
 					}
-					linesRead++
 				}
 				return linesRead, false, nil
 			}
