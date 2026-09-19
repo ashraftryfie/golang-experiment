@@ -1,0 +1,8 @@
+# Set default behavior to normalize line endings
+* text=auto eol=lf
+
+# Force Go source files to Unix LF line endings
+*.go text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf

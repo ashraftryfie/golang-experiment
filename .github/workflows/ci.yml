@@ -26,7 +26,13 @@ jobs:
 
       - name: Check Formatting (go fmt)
         run: |
-          diff -u <(echo -n) <(gofmt -d .)
+          UNFORMATTED=$(gofmt -l .)
+          if [ -n "$UNFORMATTED" ]; then
+            echo "Unformatted Go files detected:"
+            echo "$UNFORMATTED"
+            gofmt -d .
+            exit 1
+          fi
 
       - name: Run Go Vet
         run: go vet ./...

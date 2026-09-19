@@ -16,16 +16,16 @@ import (
 // ==========================================
 
 var (
-	ErrEmptyCustomerID       = errors.New("customer_id cannot be empty")
-	ErrEmptyOrderItems       = errors.New("order must contain at least one item")
-	ErrInvalidItemQuantity   = errors.New("item quantity must be greater than zero")
-	ErrInvalidItemPrice      = errors.New("item price cannot be negative")
-	ErrOrderNotFound         = errors.New("order not found")
-	ErrAlreadyPaid           = errors.New("order is already paid")
-	ErrAlreadyCancelled      = errors.New("order is already cancelled")
-	ErrCannotCancelShipped   = errors.New("cannot cancel an order that has already shipped")
-	ErrPaymentFailed         = errors.New("payment processing failed")
-	ErrInvalidTransition    = errors.New("invalid order status transition")
+	ErrEmptyCustomerID     = errors.New("customer_id cannot be empty")
+	ErrEmptyOrderItems     = errors.New("order must contain at least one item")
+	ErrInvalidItemQuantity = errors.New("item quantity must be greater than zero")
+	ErrInvalidItemPrice    = errors.New("item price cannot be negative")
+	ErrOrderNotFound       = errors.New("order not found")
+	ErrAlreadyPaid         = errors.New("order is already paid")
+	ErrAlreadyCancelled    = errors.New("order is already cancelled")
+	ErrCannotCancelShipped = errors.New("cannot cancel an order that has already shipped")
+	ErrPaymentFailed       = errors.New("payment processing failed")
+	ErrInvalidTransition   = errors.New("invalid order status transition")
 )
 
 type OrderStatus string

@@ -22,8 +22,8 @@ func NewAccount(id string, balance int64) *Account {
 	return &Account{id: id, balance: balance}
 }
 
-func (a *Account) ID() string      { return a.id }
-func (a *Account) Balance() int64  { return a.balance }
+func (a *Account) ID() string     { return a.id }
+func (a *Account) Balance() int64 { return a.balance }
 
 func (a *Account) Debit(amount int64) error {
 	// TODO: Check balance and debit

@@ -15,17 +15,17 @@ var (
 )
 
 type FileStats struct {
-	Path      string `json:"path"`
-	Lines     int    `json:"lines"`
-	Words     int    `json:"words"`
-	Bytes     int64  `json:"bytes"`
-	Error     string `json:"error,omitempty"`
+	Path  string `json:"path"`
+	Lines int    `json:"lines"`
+	Words int    `json:"words"`
+	Bytes int64  `json:"bytes"`
+	Error string `json:"error,omitempty"`
 }
 
 type AggregatedSummary struct {
-	TotalFiles int `json:"total_files"`
-	TotalLines int `json:"total_lines"`
-	TotalWords int `json:"total_words"`
+	TotalFiles int   `json:"total_files"`
+	TotalLines int   `json:"total_lines"`
+	TotalWords int   `json:"total_words"`
 	TotalBytes int64 `json:"total_bytes"`
 }
 

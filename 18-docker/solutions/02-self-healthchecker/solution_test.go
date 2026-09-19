@@ -10,9 +10,9 @@ import (
 
 func TestCLIArgParsing(t *testing.T) {
 	tests := []struct {
-		args        []string
-		wantProbe   bool
-		wantURL     string
+		args      []string
+		wantProbe bool
+		wantURL   string
 	}{
 		{args: []string{"server", "-healthcheck"}, wantProbe: true, wantURL: DefaultHealthURL},
 		{args: []string{"server", "--healthcheck"}, wantProbe: true, wantURL: DefaultHealthURL},

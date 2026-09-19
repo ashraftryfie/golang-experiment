@@ -6,7 +6,7 @@ import (
 
 var (
 	ErrNotImplemented = errors.New("exercise not implemented yet")
-	ErrEmptyPassword   = errors.New("password cannot be empty")
+	ErrEmptyPassword  = errors.New("password cannot be empty")
 )
 
 // HashPassword hashes a raw password using bcrypt with the specified cost factor.

@@ -31,9 +31,9 @@ func NewMoney(cents int64, currency string) (Money, error) {
 	return Money{cents: cents, currency: currency}, nil
 }
 
-func (m Money) Cents() int64       { return m.cents }
-func (m Money) Currency() string   { return m.currency }
-func (m Money) String() string     { return fmt.Sprintf("%.2f %s", float64(m.cents)/100.0, m.currency) }
+func (m Money) Cents() int64     { return m.cents }
+func (m Money) Currency() string { return m.currency }
+func (m Money) String() string   { return fmt.Sprintf("%.2f %s", float64(m.cents)/100.0, m.currency) }
 
 // UserAccount is an Entity with distinct identity and domain invariants
 type UserAccount struct {
@@ -50,9 +50,9 @@ func NewUserAccount(id, name string, initialBalance Money) *UserAccount {
 	}
 }
 
-func (u *UserAccount) ID() string         { return u.id }
-func (u *UserAccount) Name() string       { return u.name }
-func (u *UserAccount) Balance() Money     { return u.balance }
+func (u *UserAccount) ID() string     { return u.id }
+func (u *UserAccount) Name() string   { return u.name }
+func (u *UserAccount) Balance() Money { return u.balance }
 
 func (u *UserAccount) Deposit(m Money) {
 	u.balance.cents += m.cents
