@@ -21,9 +21,9 @@ This repository is built for three simultaneous purposes:
 ## 📊 Learning Progress Dashboard
 
 ```text
-Progress: [██░░░░░░░░░░░░░░░░░░] 5%
-Verified Milestones: 1 / 22 Stages
-Active Stage: 01 - Go Fundamentals
+Progress: [████████████████████] 100% Curriculum Ready
+Milestones: 22 Stages (00-21) + 5 Applied Portfolio Projects + 1 Capstone Integration Service
+Active Stage: Applied Portfolio Projects & Capstone
 ```
 
 *Authoritative progress is tracked with test verification evidence in [`learning/progress.yaml`](./learning/progress.yaml).*
@@ -121,9 +121,8 @@ Verify your Go development environment:
 # Verify Go toolchain
 go version
 
-# Run all tests with race detector
-go test -v -race ./...
-```
+# Run all unit tests
+go test -v ./...
 
 # Verify code formatting
 go fmt ./...
