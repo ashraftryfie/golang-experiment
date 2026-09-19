@@ -31,9 +31,9 @@ type OrderRecord struct {
 }
 
 type OrderProcessor struct {
-	mu           sync.RWMutex
-	orders       map[string]*OrderRecord
-	idempotency  map[string]string // key -> orderID
+	mu          sync.RWMutex
+	orders      map[string]*OrderRecord
+	idempotency map[string]string // key -> orderID
 }
 
 func NewOrderProcessor() *OrderProcessor {

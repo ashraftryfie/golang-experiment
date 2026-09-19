@@ -7,7 +7,7 @@ import (
 
 var (
 	ErrNotImplemented = errors.New("exercise not implemented yet")
-	ErrFrameTooLarge   = errors.New("frame payload exceeds maximum permitted size")
+	ErrFrameTooLarge  = errors.New("frame payload exceeds maximum permitted size")
 )
 
 // WriteFrame encodes payload length as a 4-byte BigEndian header and writes it followed by payload.

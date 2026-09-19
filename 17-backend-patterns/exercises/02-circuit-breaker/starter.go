@@ -7,7 +7,7 @@ import (
 
 var (
 	ErrNotImplemented = errors.New("exercise not implemented yet")
-	ErrCircuitOpen     = errors.New("circuit breaker is open; failing fast")
+	ErrCircuitOpen    = errors.New("circuit breaker is open; failing fast")
 )
 
 type CircuitState int

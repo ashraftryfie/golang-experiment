@@ -11,9 +11,9 @@ import (
 )
 
 var (
-	ErrNoteNotFound    = errors.New("note not found")
-	ErrEmptyTitle      = errors.New("title cannot be empty")
-	ErrInvalidNoteID   = errors.New("invalid note id")
+	ErrNoteNotFound  = errors.New("note not found")
+	ErrEmptyTitle    = errors.New("title cannot be empty")
+	ErrInvalidNoteID = errors.New("invalid note id")
 )
 
 type Note struct {

@@ -5,20 +5,20 @@ import (
 )
 
 var (
-	ErrNotImplemented   = errors.New("exercise not implemented yet")
-	ErrDuplicateMetric  = errors.New("metric with this name already registered")
+	ErrNotImplemented  = errors.New("exercise not implemented yet")
+	ErrDuplicateMetric = errors.New("metric with this name already registered")
 )
 
 type Counter struct{}
 
-func (c *Counter) Inc(labelValues ...string) {}
+func (c *Counter) Inc(labelValues ...string)              {}
 func (c *Counter) Add(val float64, labelValues ...string) {}
 
 type Gauge struct{}
 
 func (g *Gauge) Set(val float64, labelValues ...string) {}
-func (g *Gauge) Inc(labelValues ...string) {}
-func (g *Gauge) Dec(labelValues ...string) {}
+func (g *Gauge) Inc(labelValues ...string)              {}
+func (g *Gauge) Dec(labelValues ...string)              {}
 
 type Registry struct{}
 

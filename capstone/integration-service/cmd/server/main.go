@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/ashraftryfie/golang-experiment/capstone/integration-service/internal/adapters/external"
 	httpadapter "github.com/ashraftryfie/golang-experiment/capstone/integration-service/internal/adapters/http"
 	"github.com/ashraftryfie/golang-experiment/capstone/integration-service/internal/adapters/memory"
-	"github.com/ashraftryfie/golang-experiment/capstone/integration-service/internal/adapters/external"
 	"github.com/ashraftryfie/golang-experiment/capstone/integration-service/internal/service"
 )
 

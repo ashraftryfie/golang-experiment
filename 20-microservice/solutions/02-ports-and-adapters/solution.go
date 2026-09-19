@@ -34,9 +34,9 @@ func NewProduct(id, sku string, initialStock int) (*Product, error) {
 	}, nil
 }
 
-func (p *Product) ID() string    { return p.id }
-func (p *Product) SKU() string   { return p.sku }
-func (p *Product) Stock() int    { return p.stock }
+func (p *Product) ID() string  { return p.id }
+func (p *Product) SKU() string { return p.sku }
+func (p *Product) Stock() int  { return p.stock }
 
 func (p *Product) DeductStock(quantity int) error {
 	if quantity <= 0 {

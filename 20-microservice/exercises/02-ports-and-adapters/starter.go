@@ -25,9 +25,9 @@ func NewProduct(id, sku string, initialStock int) (*Product, error) {
 	return nil, ErrNotImplemented
 }
 
-func (p *Product) ID() string    { return p.id }
-func (p *Product) SKU() string   { return p.sku }
-func (p *Product) Stock() int    { return p.stock }
+func (p *Product) ID() string  { return p.id }
+func (p *Product) SKU() string { return p.sku }
+func (p *Product) Stock() int  { return p.stock }
 
 func (p *Product) DeductStock(quantity int) error {
 	// TODO: Enforce invariants and deduct

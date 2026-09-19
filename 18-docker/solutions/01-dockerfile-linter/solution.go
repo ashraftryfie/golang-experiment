@@ -11,10 +11,10 @@ type LintViolation struct {
 }
 
 const (
-	RuleMultiStage        = "MULTI_STAGE_REQUIRED"
-	RuleCGODisabled       = "CGO_DISABLED_REQUIRED"
-	RuleDependencyCache   = "DEPENDENCY_CACHE_ORDER"
-	RuleNonRootUser       = "NON_ROOT_USER_REQUIRED"
+	RuleMultiStage      = "MULTI_STAGE_REQUIRED"
+	RuleCGODisabled     = "CGO_DISABLED_REQUIRED"
+	RuleDependencyCache = "DEPENDENCY_CACHE_ORDER"
+	RuleNonRootUser     = "NON_ROOT_USER_REQUIRED"
 )
 
 func LintDockerfile(content string) ([]LintViolation, error) {
