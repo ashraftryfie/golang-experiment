@@ -55,7 +55,7 @@ Active Stage: 01 - Go Fundamentals
 | **18** | [Docker & Containers](./18-docker/README.md) | `IN_PROGRESS` | 0/3 | Pending | Multi-stage builds, non-root distroless, docker-compose |
 | **19** | [Observability & Telemetry](./19-observability/README.md) | `IN_PROGRESS` | 0/3 | Pending | Structured logging (`slog`), Prometheus metrics, tracing |
 | **20** | [Microservice Architecture](./20-microservice/README.md) | `IN_PROGRESS` | 0/3 | Pending | Domain-driven design, ports & adapters, clean internal layout |
-| **21** | [Final Capstone Integration](./capstone/integration-service/README.md) | `NOT_STARTED` | 0/1 | Pending | Production integration service (Postgres, Redis, Workers) |
+| **21** | [Final Capstone Integration](./capstone/integration-service/README.md) | `IN_PROGRESS` | 0/1 | Pending | Production integration service (Postgres, Redis, Workers) |
 
 ---
 
